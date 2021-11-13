@@ -2,7 +2,7 @@ A personal webpage that was made as project for school and has been changed and 
 
 **LANGUAGES**
 
-HTML, CSS, PHP
+HTML, CSS, PHP, JAVASCRIPT
 
 **LINK**
 
