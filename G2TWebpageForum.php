@@ -54,24 +54,22 @@ http://localhost/DnDWebpage/G2TWebpageForum.php
     </main>
         <hr/>
     <footer>
-            <div class="tableC">
-                <table>
-                    
-                    <!--Set table of contents as hyperlinks to hidden pages-->
-                    
-                    <caption><strong>Table of Contents</strong></caption>
-                        <tr><th>Character Creation</th>
-                        <tr><td><a href="G2TWebpageHome.html">Home</a></td></tr><br/>
-                        <tr><td><a href="G2TWebpageRace.html">Race</a></td></tr><br/>
-                        <tr><td><a href="G2TWebpageClass.html">Class</a></td></tr>
-                        <tr><td><a href="G2TWebpageStat.html">Stats</a></td></tr>
-                        <tr><td><a href="G2TWebpageBackground.html">Background</a></td></tr>
-                        <tr><td><a href="G2TWebpageDMNOTES.html">DM Notes</a></td></tr>
-                        <tr><td><a href="G2TWebpageVideos.html">Video Help</a></td></tr>
-                        <tr><td><a href="G2TWebpageDice.html">Die Roller</a></td></tr>
-                        <tr><td><a href="http://localhost/DnDWebpage/G2TWebpageForum.php">warlock Subs</a></td></tr>
-                </table>
-            </div>
-            </footer>
+        <div class="tableC">
+            <table>
+                
+                <!--Set table of contents as hyperlinks to hidden pages-->
+                <caption><strong>Table of Contents</strong></caption>
+                    <tr><td><a href="G2TWebpageHome.html">Home</a></td></tr><br/>
+                    <tr><td><a href="G2TWebpageRace.html">Race</a></td></tr><br/>
+                    <tr><td><a href="G2TWebpageClass.html">Class</a></td></tr>
+                    <tr><td><a href="G2TWebpageStat.html">Stats</a></td></tr>
+                    <tr><td><a href="G2TWebpageBackground.html">Background</a></td></tr>
+                    <tr><td><a href="G2TWebpageDMNOTES.html">DM Notes</a></td></tr>
+                    <tr><td><a href="G2TWebpageVideos.html">Video Help</a></td></tr>
+                    <tr><td><a href="G2TWebpageDice.html">Die Roller</a></td></tr>
+                    <tr><td><a href="http://localhost/DnDWebpage/G2TWebpageForum.php">warlock Subs</a></td></tr>
+            </table>
+        </div>
+    </footer>
 </body>
 </html>
