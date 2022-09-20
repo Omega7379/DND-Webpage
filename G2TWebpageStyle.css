@@ -1,5 +1,7 @@
-/*CSS page for DnD Beginner's guide, by Josip Bailey, last edited 050121*/
+/*CSS page for DnD Beginner's guide, by Josip Bailey, last edited 190921*/
 
+@media screen and (min-width:801px){
+    
 /*Table of Contents*/
 div.tableC {
     border: 1px solid black;
@@ -13,7 +15,7 @@ div.main {
     border: 1px solid black;
     background-color: rgb(178, 220, 233);
     color: black;
-    max-width: 900px;
+    max-width: 60%;
     margin: auto;
     }
 
@@ -30,3 +32,113 @@ div.img {
     text-align: center;
 }
 
+/*nav bar at main body*/
+.menu {
+    background-color: #000000;
+}
+
+.menu ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(178, 220, 233);
+}
+
+.menu ul li a {
+    display: block;
+    color: red;
+    padding: 14px 16px;
+    margin: 5px;
+    text-decoration: none;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+#top-nav ul li a:hover {
+    color: #44bcd8;
+    background-color: rgba(152, 251, 152, 0.4);
+}
+
+a {
+    color: crimson;
+}
+}
+
+/*mobile friendly version*/
+@media screen and (max-width: 800px){
+
+/*Table of Contents*/
+div.tableC {
+    border: 1px solid black;
+    background-color: rgb(178, 220, 233);
+    color: black;
+    max-width: 150px;
+    }
+
+/*Contents of Main*/
+div.main {
+    border: 1px solid black;
+    background-color: rgb(178, 220, 233);
+    color: black;
+    max-width: 60%;
+    margin: auto;
+    }
+
+/*Title/Header*/
+div.top {
+    border: 0px;
+    background-color:  #44bcd8;
+    text-align: center;
+    align-content: center;
+}
+
+/*image div to align general images*/
+div.img {
+    text-align: center;
+}
+
+/*nav bar at main body*/
+.menu {
+    background-color: #000000;
+}
+
+.menu ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(178, 220, 233);
+}
+
+.menu ul li a {
+    display: block;
+    color: red;
+    padding: 14px 16px;
+    margin: 5px;
+    text-decoration: none;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+#top-nav ul li a:hover {
+    color: #44bcd8;
+    background-color: rgba(152, 251, 152, 0.4);
+}
+
+a {
+    color: crimson;
+}
+}

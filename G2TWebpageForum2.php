@@ -21,6 +21,20 @@
 
     <!--middle section with form end result-->
     <main>
+    <div class="menu">
+        <ul>
+            <li><a href="G2TWebpageHome.html">Home</a></li>
+            <li><a href="G2TWebpageRace.html">Race</a></li>
+            <li><a href="G2TWebpageClass.html">Class</a></li>
+            <li><a href="G2TWebpageStat.html">Stats</a></li>
+            <li><a href="G2TWebpageBackground.html">Background</a></li>
+            <li><a href="G2TWebpageDMNOTES.html">DM Notes</a></li>
+            <li><a href="G2TWebpageVideos.html">Video Help</a></li>
+            <li><a href="G2TWebpageDice.html">Die Roller</a></li>
+            <li><a href="G2TWebpageForum.php">Warlock Patrons</a></li>
+            <li><a href="https://github.com/omega7379/DND-Webpage/">Github</a></li>
+        </ul>
+    </div>
         <div class="top">
         <b><p style="font-size: x-large;">Warlock's Subscription</p></b>
         </div>
